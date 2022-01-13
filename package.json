@@ -16,5 +16,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/llocretsa/app-teste/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
