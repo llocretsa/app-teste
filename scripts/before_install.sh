@@ -1,4 +1,3 @@
-#!/bin/bash
 
 #download node and npm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
@@ -6,7 +5,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 sudo nvm install 16
 
 #create our working directory if it doesnt exist
-DIR="/home/ubuntu/app"
+DIR="/home/ubuntu/app-teste"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
