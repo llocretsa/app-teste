@@ -2,7 +2,8 @@
 
 Este repositório hospeda o código-fonte do sobre CI/CD do Github para uma instância do AWS EC2 via CodePipeline e CodeDeploy. Este aplicativo express node.js como exemplo para a demonstração.
 
-Também criei um vídeo para falar sobre como corrigir algumas das falhas comuns do CodeDeploy que encontrei (https://www.youtube.com/watch?v=sXZVkOH6hrA). Abaixo estão alguns exemplos:
+Também criei um vídeo para falar sobre como corrigir algumas das falhas comuns do CodeDeploy que encontrei.
+Abaixo estão alguns exemplos:
 
 ```
 Falha do ApplicationStop com o código de saída 1
