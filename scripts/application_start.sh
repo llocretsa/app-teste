@@ -1,3 +1,4 @@
+#!/bin/bash
 
 #give permission for everything in the express-app directory
 sudo chmod -R 777 /home/ubuntu/app-teste
@@ -12,6 +13,8 @@ export NVM_DIR="$HOME/.nvm"
 
 #install node modules
 # npm install
+sudo npm install --global
+sudo npm install yarn --global
 yarn install
 
 #start our node app in the background
