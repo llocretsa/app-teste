@@ -22,7 +22,7 @@ sudo apt update
 sudo apt install ruby
 sudo apt install wget
 cd /home/ec2-user
-wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
+wget wget https://aws-codedeploy-sa-east-1.s3.sa-east-1.amazonaws.com/latest/install
 sudo chmod +x ./install
 sudo ./install auto
 ```
@@ -37,7 +37,7 @@ Local dos logs do CodeDeploy:
 /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
 ```
 
-Desinstar o agente do CodeDeploy:
+Desinstarlar o agente do CodeDeploy:
 ```
-sudo apt erase codedeploy-agent
+sudo apt autoremove codedeploy-agent
 ```
