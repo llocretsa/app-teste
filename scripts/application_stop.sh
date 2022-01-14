@@ -1,13 +1,7 @@
 #!/bin/bash
 
 #Stopping existing node servers
-# echo "Stopping any existing node servers"
+echo "Stopping any existing node servers"
 # sudo pkill node
 
-STATUS="$(sudo systemctl is-active node)"
-if [ "${STATUS}" = "active" ]; then
-    sudo pkill node
-else
-    echo " Service not running... so exiting "
-    exit 1
-fi
+sudo systemctl is-active --quiet node || sudo pkill node
